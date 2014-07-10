@@ -9,7 +9,7 @@ http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
 http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context-2.5.xsd">
-<bean name="/aggiungi.htm" class="controller.AggiungiController"/>
+<bean name="/inserisci.htm" class="controller.AggiungiController"/>
 <bean name="/modifica.htm" class="controller.ModificaController"/>
 <bean
 class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
